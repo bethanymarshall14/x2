@@ -1,0 +1,478 @@
+#Search {
+  position:absolute;
+  top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  width: 15%;
+  background-color: palevioletred;
+  color: #2d314d;
+  right: 80px;
+}
+
+header {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+
+}
+
+
+ main {
+   font-size: 50px;
+   font-family: 'Courier New', Courier, monospace;
+   background-color:  #2d314d;;
+ }
+
+body { 
+  font-size: 25px;
+  margin: 0px;
+}
+@media only screen and (min-width:320px){
+  h1{color:rgb(0, 195, 255);}
+}
+@media only screen and (min-width:768px){
+  h1{color:rgb(9, 197, 166);}
+}
+@media only screen and (min-width:980px){
+  h1{color:rgb(0, 255, 149);}
+}
+
+input{
+  width:500px;
+  height:40px;
+  border-radius: 30px;
+  border:2px solid #c7c7c7
+}
+
+
+.button {
+  cursor: pointer;
+}
+
+[id^=p_box]{
+  padding: 18px 2%;
+  border: 12px solid palevioletred;
+  float: left;
+  width: 29.333333%;
+  margin: auto 2%;  
+  font-size: 17px;
+  text-align: center;
+}
+
+[id^=p_box5]{
+  padding: 18px 2%;
+  border: 12px solid palevioletred;
+  float: left;
+  width: 96%;
+  margin: auto 2%;  
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+#p_box1{
+  background-color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+}
+#p_box2{
+  background-color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+}
+#p_box3{
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+p{
+  margin: 50px; 
+}
+.feature {
+
+  text-align: center;
+}
+@media (min-width: 40em) {
+  .feature {
+    text-align: left;
+  }
+}
+.feature__intro {
+  margin-bottom: 3.75rem;
+}
+@media (min-width: 64em) {
+  .feature__intro {
+    width: 60%;
+  }
+}
+@media (min-width: 40em) {
+  .feature__grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.feature__item {
+  padding: 0.9375rem;
+}
+@media (min-width: 40em) {
+  .feature__item {
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 64em) {
+  .feature__item {
+    flex: 1;
+  }
+}
+.feature__icon {
+  margin-bottom: 1.875rem;
+}
+
+@media (min-width: 64em) {
+  .feature__icon {
+    margin-bottom: 2.75rem;
+  }
+}
+.feature__title {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #2d314d;
+  margin-bottom: 1rem;
+}
+@media (min-width: 64em) {
+  .feature__title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+.feature__description {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: palevioletred;
+  color: white;
+  padding: 2.5rem;
+  text-align: center;
+  border: 12px solid white;
+
+
+}
+@media (min-width: 64em) {
+  .footer .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 3fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: "logo links1 links2 cta" "social links1 links2 copyright";
+    gap: 1rem;
+    justify-items: start;
+  }
+}
+.footer a {
+  color: white;
+}
+.footer__logo {
+  display: inline-block;
+}
+  
+  
+@media (max-width: 63.9375em) {
+  .footer__logo {
+    margin-bottom: 1.875rem;
+  }
+}
+@media (min-width: 64em) {
+  .footer__logo {
+    grid-area: logo;
+  }
+}
+@media (max-width: 63.9375em) {
+  .footer__social {
+    margin-bottom: 1.875rem;
+  }
+}
+@media (min-width: 64em) {
+  .footer__social {
+    grid-area: social;
+    align-self: end;
+  }
+}
+.footer__social a {
+  display: inline-block;
+  height: 1.25rem;
+  align-content: center;
+}
+
+.footer__social a svg path {
+  transition: fill 150ms ease-in-out;
+  align-content: center;
+  
+}
+.footer__social a:hover svg path {
+  fill:  #2d314d;
+  align-content: center;
+}
+.footer__social a:not(:last-child) {
+
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9375rem;
+}
+@media (min-width: 64em) {
+  .footer__links {
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+@media (min-width: 64em) {
+  .footer__links.col1 {
+    grid-area: links1;
+  }
+}
+@media (max-width: 63.9375em) {
+  .footer__links.col2 {
+    margin-bottom: 1.875rem;
+  }
+}
+@media (min-width: 64em) {
+  .footer__links.col2 {
+    grid-area: links2;
+  }
+}
+.footer__links a {
+  line-height: 2.25;
+  transition: color 150ms ease-in-out;
+}
+.footer__links a:hover {
+  color: #31d35c;
+}
+@media (min-width: 64em) {
+  .footer__cta {
+    grid-area: cta;
+    text-align: right;
+    justify-self: end;
+  }
+}
+@media (max-width: 63.9375em) {
+  .footer__cta a.button {
+    margin-bottom: 1.875rem;
+  }
+}
+.footer__copyright {
+  font-size: 0.8125rem;
+  color: #9698a6;
+  font-family: 'Courier New', Courier, monospace;
+}
+@media (min-width: 64em) {
+  .footer__copyright {
+    grid-area: copyright;
+    align-self: end;
+    justify-self: end;
+  }
+}
+.footer .attribution {
+  margin-top: 4rem;
+  font-size: 0.875rem;
+}/*# sourceMappingURL=style.css.map */
+
+.has-fade {
+  visibility: hidden;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.fade-in {
+  -webkit-animation: fade-in 200ms ease-in-out forwards;
+          animation: fade-in 200ms ease-in-out forwards;
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    visibility: visible;
+    opacity: 1;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    visibility: visible;
+    opacity: 1;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.fade-out {
+  -webkit-animation: fade-out 200ms ease-in-out forwards;
+          animation: fade-out 200ms ease-in-out forwards;
+}
+  
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+  } 
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2d314d;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: palevioletred;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  div.carousel div.item > img {
+    width: 100%;
+    height: 700px;
+}
+.carousel-inner img {
+  margin: auto;
+}
+
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+
+  #button1 {
+    cursor:pointer;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: palevioletred;
+    color: white;
+    border: 6px  #2d314d;;
+    }
+    
+    #button1:hover {
+      background-color: #2d314d;
+    }
+
+#box9 {
+  background-color: white; 
+  border: 12px solid palevioletred;
+  font-size: 40px;
+  text-align: center;
+}
